@@ -38,7 +38,7 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 點擊：下載連結
 檔案有點大，約 3.5GB，請耐心稍待…
 
-  **2.2** 匯入虛擬系統  
+**2.2** 匯入虛擬系統  
 	i. 啟動 VirtualBox
 		![ ](./media/Chapter01_02.png  "Virtualbox_Import_1")
 	ii. 點擊左上方的 [工具] 接著點擊 [匯入]
@@ -51,3 +51,19 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 		![ ](./media/Chapter01_05.png  "Virtualbox_Start_2")
 
 
+----
+### 我的 VirtualBox 無法匯入 NLP\_TrainingLab 或無法運作 NLP\_TrainingLab
+
+如果無法安裝 VirtualBox，或無法匯入 NLP\_TrainingLab，又或是無法運作 NLP\_TrainingLab 的話，只要你的電腦裡沒有其它版本的 Python3，那麼就能依這段的說明設定好自己的系統。
+
+接下來，首先[下載&安裝 PowerShell](https://github.com/PowerShell/PowerShell#get-powershell) 確認自己的電腦裡「**沒有**」Python3，接著**[下載&安裝 Python3]** 以及**[下載&安裝 Wing Pro]**.
+
+1. [下載&安裝 PowerShell](https://github.com/PowerShell/PowerShell#get-powershell)：打開連結以後，建議選擇 Windows (x64) 的 LTS 版本，下載以後完成安裝。
+2. 確認自己的電腦裡沒有 Python3
+	i. 從 [開始] 功能表，打開在前一步安裝的 PowerShell (按一下 [開始] 並輸入 PowerShell，然後點擊 [Windows PowerShell] 的圖示，啟動 PowerShell。
+		![ ](./media/Chapter01_06.png  "Start_PowerShell")
+	ii. 在 [PowerShell] 的游標處輸入 `where.exe python` 並按下 Enter，如果沒有找到 python 的話，接著做下一步，否則直接到步驟 3。
+	iii. 下載&安裝 Python3
+		![ ](./media/Chapter01_07.png  "Download_Python3")
+	下載完成以後，點擊剛才下載的檔案，開始安裝。特別注意在這個步驟時，要把 [Add python.exe to PATH] 勾起來！如果忘了勾，稍後可以解除安裝，再重來一次。
+		![ ](./media/Chapter01_08.png  "Install_Python3")
