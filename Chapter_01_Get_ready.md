@@ -8,10 +8,9 @@
 就這兩個東西，但因為 Windows 有各種不同的版本，而 Mac 又有兩種不同的 CPU 架構，在接下來的章節裡，我將提供各種不同的方案，請讀者依自己的電腦設備條件選擇其中一種
 
  - 我只知道是 Windows 的電腦，其它什麼都不知道 [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E5%8F%AA%E7%9F%A5%E9%81%93%E6%98%AF-windows-%E7%9A%84%E9%9B%BB%E8%85%A6%E5%85%B6%E5%AE%83%E4%BB%80%E9%BA%BC%E9%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93)
- - 我的 VirtualBox 無法匯入 **NLP\_TrainingLab** 或無法運作 **NLP\_TrainingLab**
- - 我用 Windows 的電腦，而且已有安裝 Anaconda 或其它 Python 版本
- - 我用 Mac 電腦。
- - 我用 Linux 電腦。
+ - 我的 VirtualBox 無法匯入 **NLP\_TrainingLab** 或無法運作 **NLP\_TrainingLab** [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%9A%84-virtualbox-%E7%84%A1%E6%B3%95%E5%8C%AF%E5%85%A5-nlp_traininglab-%E6%88%96%E7%84%A1%E6%B3%95%E9%81%8B%E4%BD%9C-nlp_traininglab)
+ - 我用 Mac 電腦。[傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%94%A8-mac-%E9%9B%BB%E8%85%A6-%E6%88%96-%E6%88%91%E7%94%A8-linux-%E9%9B%BB%E8%85%A6)
+ - 我用 Linux 電腦。(同上)
 
 
 ----
