@@ -27,24 +27,24 @@
 **1.1** 下載 VirtualBox：
 先到這裡下載 VirtualBox：[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) 
 ![ ](./media/Chapter01_01.png  "Virtualbox_Download")
-**2.1** 安裝 VirtualBox：
+**1.2** 安裝 VirtualBox：
 Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 
-**2.3** 啟動 VirtualBox 然後會看到類似以下的畫面：
+**1.3** 啟動 VirtualBox 然後會看到類似以下的畫面：
 
 #### 完成 VirtualBox 下載和安裝以後，接下來只要：
 
-**2.1.** 下載虛擬系統
+**2.1** 下載虛擬系統
 點擊：下載連結
 檔案有點大，約 3.5GB，請耐心稍待…
 
-**2.2.** 匯入虛擬系統
+**2.2** 匯入虛擬系統
 	i. 啟動 VirtualBox
 		![ ](./media/Chapter01_02.png  "Virtualbox_Import_1")
 	ii. 點擊左上方的 [工具] 接著點擊 [匯入]
 		![ ](./media/Chapter01_03.png  "Virtualbox_Import_2")
 
-**2.3.** 啟動虛擬系統
+**2.3** 啟動虛擬系統
     啟動 VirtualBox
 		![ ](./media/Chapter01_04.png  "Virtualbox_Start_1")
     選擇虛擬系統 NLP_TrainingLab，再點擊 [啟動] 讓它開機，待出現以下畫面就完成開機囉
