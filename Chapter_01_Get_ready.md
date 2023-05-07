@@ -65,5 +65,5 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 	ii. 在 [PowerShell] 的游標處輸入 `where.exe python` 並按下 Enter，如果沒有找到 python 的話，接著做下一步，否則直接到步驟 3。  
 	iii. 下載&安裝 Python3  
 		![ ](./media/Chapter01_07.png  "Download_Python3")  
-	下載完成以後，點擊剛才下載的檔案，開始安裝。特別注意在這個步驟時，要把 [Add python.exe to PATH] 勾起來！如果忘了勾，稍後可以解除安裝，再重來一次。
+	下載完成以後，點擊剛才下載的檔案，開始安裝。特別注意在這個步驟時，要把 [Add python.exe to PATH] 勾起來！如果忘了勾，稍後可以解除安裝，再重來一次。  
 		![ ](./media/Chapter01_08.png  "Install_Python3")
