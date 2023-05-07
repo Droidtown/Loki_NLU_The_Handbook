@@ -85,5 +85,15 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 
 Mac 或是 Linux 都已經內建預先裝好的 Python3，所以前述絕大多數的工作都不需要做。只要打開終端機 (Terminal) ，然後依序安裝幾個模組就行了。
 
-1. 打開終端機：
-	Mac: 
+1. 打開終端機：  
+    - Mac: 點擊 [啟動台] > 輸入 [Terminal] > 啟動 [Terminal]  
+	![ ](./media/Chapter01_09.png  "Open_Terminal_1")
+    - 在 Terminal 中依序輸入以下的內容，安裝 requests, discord.py, ArticutAPI 和 KeyMojiAPI 四個套件…  
+	![ ](./media/Chapter01_10.png  "Open_Terminal_2")
+	
+    1. 輸入`python3 -m pip install requests` 按下 Enter 讓它完成
+    2. 輸入`python3 -m pip install discord.py` 按下 Enter 讓它完成
+    3. 輸入`python3 -m pip install ArticutAPI` 按下 Enter 讓它完成
+    4. 輸入`python3 -m pip install KeyMojiAPI` 按下 Enter 讓它完成
+
+完成以後，你的電腦就已經準備好，可以進行 NLP 應用的開發工作了！
