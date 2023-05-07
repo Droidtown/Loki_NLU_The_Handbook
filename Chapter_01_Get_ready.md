@@ -26,7 +26,7 @@
 先下載與安裝 VirtualBox 虛擬主機
 
 **1.1** 下載 VirtualBox：
-先到這裡下載 VirtualBox：[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) 
+先到這裡下載 VirtualBox：[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)  
 ![ ](./media/Chapter01_01.png  "Virtualbox_Download")
 **1.2** 安裝 VirtualBox：
 Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
@@ -40,15 +40,15 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 檔案有點大，約 3.5GB，請耐心稍待…
 
 **2.2** 匯入虛擬系統  
-	i. 啟動 VirtualBox
+	i. 啟動 VirtualBox  
 		![ ](./media/Chapter01_02.png  "Virtualbox_Import_1")
-	ii. 點擊左上方的 [工具] 接著點擊 [匯入]
+	ii. 點擊左上方的 [工具] 接著點擊 [匯入]  
 		![ ](./media/Chapter01_03.png  "Virtualbox_Import_2")
 
 **2.3** 啟動虛擬系統
-    啟動 VirtualBox
+    啟動 VirtualBox  
 		![ ](./media/Chapter01_04.png  "Virtualbox_Start_1")
-    選擇虛擬系統 NLP_TrainingLab，再點擊 [啟動] 讓它開機，待出現以下畫面就完成開機囉
+    選擇虛擬系統 NLP_TrainingLab，再點擊 [啟動] 讓它開機，待出現以下畫面就完成開機囉  
 		![ ](./media/Chapter01_05.png  "Virtualbox_Start_2")
 
 
@@ -68,6 +68,9 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 		![ ](./media/Chapter01_07.png  "Download_Python3")  
 	下載完成以後，點擊剛才下載的檔案，開始安裝。特別注意在這個步驟時，要把 [Add python.exe to PATH] 勾起來！如果忘了勾，稍後可以解除安裝，再重來一次。  
 		![ ](./media/Chapter01_08.png  "Install_Python3")
+3. 下載&安裝 Wing Pro
+    從 Wingware [下載 Wing Pro](https://wingware.com/) 並安裝到你的電腦裡。我個人十分推薦使用 Wing Pro，它是商業軟體，需要付費購買。但為學校教育使用的話，可以申請免費的授權碼。如果你不是學術單位，也可以使用 Wing Personal 的版本，基本功能幾乎一樣。  
+		![ ](./media/Chapter01_11.png  "Wing")
 
 這個步驟完成以後，你的電腦裡就有 PowerShell 和 Python3 了。
 接下來，請在 PowerShell 的視窗裡，依序完成以下操作：
@@ -83,17 +86,20 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 ----
 ### 我用 Mac 電腦 或 我用 Linux 電腦。
 
-Mac 或是 Linux 都已經內建預先裝好的 Python3，所以前述絕大多數的工作都不需要做。只要打開終端機 (Terminal) ，然後依序安裝幾個模組就行了。
+Mac 或是 Linux 都已經內建預先裝好的 Python3，所以前述絕大多數的工作都不需要做。只要打開終端機 (Terminal) ，然後依序安裝幾個模組，然後再安裝 Wing Pro 就行了。
 
 1. 打開終端機：  
-    - Mac: 點擊 [啟動台] > 輸入 [Terminal] > 啟動 [Terminal]  
+    - Mac: 點擊 [啟動台] > 輸入 [Terminal] > 啟動 [Terminal]    
 	![ ](./media/Chapter01_09.png  "Open_Terminal_1")
-    - 在 Terminal 中依序輸入以下的內容，安裝 requests, discord.py, ArticutAPI 和 KeyMojiAPI 四個套件…  
+    - 在 Terminal 中依序輸入以下的內容，安裝 requests, discord.py, ArticutAPI 和 KeyMojiAPI 四個套件…    
 	![ ](./media/Chapter01_10.png  "Open_Terminal_2")
 	
     1. 輸入`python3 -m pip install requests` 按下 Enter 讓它完成
     2. 輸入`python3 -m pip install discord.py` 按下 Enter 讓它完成
     3. 輸入`python3 -m pip install ArticutAPI` 按下 Enter 讓它完成
     4. 輸入`python3 -m pip install KeyMojiAPI` 按下 Enter 讓它完成
+2. 下載&安裝 Wing Pro
+    從 Wingware [下載 Wing Pro](https://wingware.com/) 並安裝到你的電腦裡。我個人十分推薦使用 Wing Pro，它是商業軟體，需要付費購買。但為學校教育使用的話，可以申請免費的授權碼。如果你不是學術單位，也可以使用 Wing Personal 的版本，基本功能幾乎一樣。  
+	![ ](./media/Chapter01_11.png  "Wing")
 
 完成以後，你的電腦就已經準備好，可以進行 NLP 應用的開發工作了！
