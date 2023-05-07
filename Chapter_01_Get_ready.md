@@ -10,10 +10,11 @@
  - 我只知道是 Windows 的電腦，其它什麼都不知道 [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E5%8F%AA%E7%9F%A5%E9%81%93%E6%98%AF-windows-%E7%9A%84%E9%9B%BB%E8%85%A6%E5%85%B6%E5%AE%83%E4%BB%80%E9%BA%BC%E9%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93)
  - 我的 VirtualBox 無法匯入 **NLP\_TrainingLab** 或無法運作 **NLP\_TrainingLab**
  - 我用 Windows 的電腦，而且已有安裝 Anaconda 或其它 Python 版本
- - 我用 Mac 電腦，CPU 是 i 系列的 (Intel Core i5 或 i7)
- - 我用 Mac 電腦，CPU 是 M 系列的
- - 我用 Linux 電腦 (That would be easy.)
+ - 我用 Mac 電腦。
+ - 我用 Linux 電腦。
 
+
+----
 ### 只知道是 Windows 的電腦，其它什麼都不知道…
 因為 Windows 的版本眾多，為了避免不同的 Winodws 各自的設定不同而雞同鴨講，所以我們準備了一個 VirtualBox 的虛擬機器，將設定全部做好了！
 
@@ -67,3 +68,22 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 		![ ](./media/Chapter01_07.png  "Download_Python3")  
 	下載完成以後，點擊剛才下載的檔案，開始安裝。特別注意在這個步驟時，要把 [Add python.exe to PATH] 勾起來！如果忘了勾，稍後可以解除安裝，再重來一次。  
 		![ ](./media/Chapter01_08.png  "Install_Python3")
+
+這個步驟完成以後，你的電腦裡就有 PowerShell 和 Python3 了。
+接下來，請在 PowerShell 的視窗裡，依序完成以下操作：
+
+1. 輸入`python3 -m pip install requests` 按下 Enter 讓它完成
+2. 輸入`python3 -m pip install discord.py` 按下 Enter 讓它完成
+3. 輸入`python3 -m pip install ArticutAPI` 按下 Enter 讓它完成
+4. 輸入`python3 -m pip install KeyMojiAPI` 按下 Enter 讓它完成
+
+至此，你的 Windows 電腦已經準備好，可以進行 NLP 應用的開發工作了！
+
+
+----
+### 我用 Mac 電腦 或 我用 Linux 電腦。
+
+Mac 或是 Linux 都已經內建預先裝好的 Python3，所以前述絕大多數的工作都不需要做。只要打開終端機 (Terminal) ，然後依序安裝幾個模組就行了。
+
+1. 打開終端機：
+	Mac: 
