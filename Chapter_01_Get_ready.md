@@ -7,14 +7,13 @@
 
 就這兩個東西，但因為 Windows 有各種不同的版本，而 Mac 又有兩種不同的 CPU 架構，在接下來的章節裡，我將提供各種不同的方案，請讀者依自己的電腦設備條件選擇其中一種
 
- - 我只知道是 Windows 的電腦，其它什麼都不知道 [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E5%8F%AA%E7%9F%A5%E9%81%93%E6%98%AF-windows-%E7%9A%84%E9%9B%BB%E8%85%A6%E5%85%B6%E5%AE%83%E4%BB%80%E9%BA%BC%E9%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93)
- - 我的 VirtualBox 無法匯入 **NLP\_TrainingLab** 或無法運作 **NLP\_TrainingLab** [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%9A%84-virtualbox-%E7%84%A1%E6%B3%95%E5%8C%AF%E5%85%A5-nlp_traininglab-%E6%88%96%E7%84%A1%E6%B3%95%E9%81%8B%E4%BD%9C-nlp_traininglab)
- - 我用 Mac 電腦。[傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%94%A8-mac-%E9%9B%BB%E8%85%A6-%E6%88%96-%E6%88%91%E7%94%A8-linux-%E9%9B%BB%E8%85%A6)
- - 我用 Linux 電腦。(同上)
-
+> - 我只知道是 Windows 的電腦，其它什麼都不知道 [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E5%8F%AA%E7%9F%A5%E9%81%93%E6%98%AF-windows-%E7%9A%84%E9%9B%BB%E8%85%A6%E5%85%B6%E5%AE%83%E4%BB%80%E9%BA%BC%E9%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93)
+> - 我的 VirtualBox 無法匯入 **NLP\_TrainingLab** 或無法運作 **NLP\_TrainingLab** [傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%9A%84-virtualbox-%E7%84%A1%E6%B3%95%E5%8C%AF%E5%85%A5-nlp_traininglab-%E6%88%96%E7%84%A1%E6%B3%95%E9%81%8B%E4%BD%9C-nlp_traininglab)
+> - 我用 Mac 電腦。[傳送門](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md#%E6%88%91%E7%94%A8-mac-%E9%9B%BB%E8%85%A6-%E6%88%96-%E6%88%91%E7%94%A8-linux-%E9%9B%BB%E8%85%A6)
+> - 我用 Linux 電腦。(同上)
 
 ----
-### 只知道是 Windows 的電腦，其它什麼都不知道…
+## 只知道是 Windows 的電腦，其它什麼都不知道…
 因為 Windows 的版本眾多，為了避免不同的 Winodws 各自的設定不同而雞同鴨講，所以我們準備了一個 VirtualBox 的虛擬機器，將設定全部做好了！
 
 你可以簡單地把 VirtualBox 理解成「一部虛擬的電腦主機」，我們要在這部虛擬的電腦主機裡安裝一個虛擬的作業系統，叫做 NLP_TrainingLab。
@@ -52,11 +51,11 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 
 
 ----
-### 我的 VirtualBox 無法匯入 NLP\_TrainingLab 或無法運作 NLP\_TrainingLab
+## 我的 VirtualBox 無法匯入 NLP\_TrainingLab 或無法運作 NLP\_TrainingLab
 
 如果無法安裝 VirtualBox，或無法匯入 NLP\_TrainingLab，又或是無法運作 NLP\_TrainingLab 的話，只要你的電腦裡沒有其它版本的 Python3，那麼就能依這段的說明設定好自己的系統。
 
-接下來，首先[下載&安裝 PowerShell](https://github.com/PowerShell/PowerShell#get-powershell) 確認自己的電腦裡「**沒有**」Python3，接著**[下載&安裝 Python3]** 以及**[下載&安裝 Wing Pro]**.
+接下來，首先[下載&安裝 PowerShell](https://github.com/PowerShell/PowerShell#get-powershell) 確認自己的電腦裡「**沒有**」Python3，接著[**下載&安裝 Python3**] 以及[**下載&安裝 Wing Pro**].
 
 1. [下載&安裝 PowerShell](https://github.com/PowerShell/PowerShell#get-powershell)：打開連結以後，建議選擇 Windows (x64) 的 LTS 版本，下載以後完成安裝。
 2. 確認自己的電腦裡沒有 Python3
@@ -83,7 +82,7 @@ Windows 環境下的安裝，就依序完成 [下一步] 的指示即可。
 
 
 ----
-### 我用 Mac 電腦 或 我用 Linux 電腦。
+## 我用 Mac 電腦 或 我用 Linux 電腦。
 
 Mac 或是 Linux 都已經內建預先裝好的 Python3，所以前述絕大多數的工作都不需要做。只要打開終端機 (Terminal) ，然後依序安裝幾個模組，然後再安裝 Wing Pro 就行了。
 
