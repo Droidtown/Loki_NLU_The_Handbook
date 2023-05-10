@@ -8,6 +8,8 @@
 #### 01 準備開發環境 (Getting ready to set up a devlopment environment for semantics.)
 [Chapter 01: Get ready 準備開發環境！](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_01_Get_ready.md)
 
+#### 02 設定 Discord 聊天機器人 (Setting up a Discord chatbot.)
+[Chapter 02: Setting up a Discord chatbot 設定 Discord 聊天機器人](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_02_Discord_Chatbot.md)
 
 ### How to make sense? 「意義」怎麼被理解？
 ### How to calculate meaning to make computer "understand?"
