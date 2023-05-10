@@ -18,7 +18,7 @@ Loki  的 Chatbot Mode 則是串接了 NLG LLM 的生成能力，一方面可以
 > 6. 給 LLM 設定 FAQ 的參考文獻
 > 7. 下載範例程式，並執行 ChatbotMaker.py
 > 8. 編輯與複核 LLM 產生的回覆
-> 9. 和 Discord 做串接
+> 9. 和 Loki 串接，和 Discord 做串接
 
 ----
 ## 1. 創建新的 Loki 專案
@@ -129,7 +129,7 @@ LLM 會試圖產生幾個和我們指定的語句意思接近的句子。
 
 將生成錯誤的答案刪除或是修正以後。這個步驟就完成了！
 
-## 9. 和 Discord 做串接
+## 9. 和 Loki 串接，和 Discord 做串接
 首先把我們這個示範專案的主程式 Enie.py 和雲端的伺服器串起來。打開 Enie.py ，在大約 55 行左右，找到一段程式碼如下：
 
 ```python
@@ -196,7 +196,7 @@ from Enie import runLoki
 最後，再確認一下 `myDiscordBot.py` 的最後幾行長這個樣子…  
   ![](./media/Chapter03_27.png)
 
-就可以啟動你的 Discord Chatbot 了。  
+這麼一來，你的電腦就和 Discord 串接好了，接下來就可以啟動你的 Discord Chatbot 了。  
   ![](./media/Chapter03_28.png)
 
 我們試試看它已經學會的句子：`法律百科是否屬於非營利性質的組織？`  

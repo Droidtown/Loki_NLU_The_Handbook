@@ -11,6 +11,9 @@
 #### 02 設定 Discord 聊天機器人 (Setting up a Discord chatbot.)
 [Chapter 02: Setting up a Discord chatbot 設定 Discord 聊天機器人](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_02_Discord_Chatbot.md)
 
+#### 03 Loki Chatbot 模式 (Loki Chatbot Mode)
+[Chapter 03: Loki Chatbot Mode (Loki 聊天機器人模式)](https://github.com/Droidtown/Loki_NLU_The_Handbook/blob/main/Chapter_03_Loki_ChatbotMode.md)
+
 ### How to make sense? 「意義」怎麼被理解？
 ### How to calculate meaning to make computer "understand?"
 ### Loki: Linguistic-Oriented Keyword Interface that can do NLU.
