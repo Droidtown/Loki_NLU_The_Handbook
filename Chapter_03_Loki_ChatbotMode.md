@@ -149,7 +149,7 @@ USERNAME = accountDICT["username"]
 LOKI_KEY = accountDICT["loki_key"]
 ```
 
-最後的結果應該要像這樣：
+最後的結果應該要像這樣：  
   ![](./media/Chapter03_29.png)
 
 接著把 Chapter02 裡的 DiscordBot.py 檔抓過來用。如果已經刪了，可以重新從 LokiHub 裡抓 template 回來改。以下我示範從 template 裡抓回來改的作法：  
