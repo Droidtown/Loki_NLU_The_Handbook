@@ -104,14 +104,16 @@ LLM 會試圖產生幾個和我們指定的語句意思接近的句子。
 它的內容長這樣：  
   ![](./media/Chapter03_21.png)
   
-我們先準備一個叫 account.info 的檔案，和它們排在一起。account.info 的檔案內容像這樣：
+我們在 Wing 裡面新建一個檔案，把以下的內容貼到檔案裡：
 
 ```txt
 {
     "username": "你用來登入 https://api.droidtown.co 的那個 email",
-    "loki_key" : "依下一張圖取得 loki_key 並貼到這裡來"
+    "loki_key" : "依下一張圖取得 loki_key 並貼到這裡來",
+    "discord_token":""
 }
 ```  
+存檔的時候，選擇 `All Types`(如果可以選的話) 然後把檔名取做 account.info ，並把它和解壓縮以後的其它檔案排在一起。
 
 步驟如下：  
   ![](./media/Chapter03_22.png)
@@ -182,7 +184,7 @@ from Enie import runLoki
 記得讓它和上一行對齊，像這樣：
   ![](./media/Chapter03_26.png)
 
-接著打開 `account.info` 檔案，加上一段 `discord_token`，如下：
+接著打開 `account.info` 檔案，把 `discord_token` 的值填入，如下：
 
 ```txt
 {
