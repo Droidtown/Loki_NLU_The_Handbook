@@ -11,6 +11,7 @@ Discord 是一款免費的通訊應用程式，讓你可以與朋友、遊戲社
 > 1. 創建新的機器人
 > 2. 將第一步裡的機器人，透過 URL 加到 Discord 伺服器裡
 > 3. 在本機 (就是你的電腦) 上執行 myBot.py 的機器人程式
+> 4. 發生錯誤訊息怎麼辦？
 
 ----
 ## 1. 創建新的機器人
@@ -73,3 +74,23 @@ Discord 是一款免費的通訊應用程式，讓你可以與朋友、遊戲社
 目前為止，這個 Chatbot 的能力只有「收到 ping，回覆 pong；收到 ping ping，回覆 pong pong」這樣而已。
 
 我們在下一章裡將會介紹 Loki 的 Chatbot 模式，來說明如何擴充你的聊天機器人的語言能力。
+
+## 4. 發生錯誤訊息怎麼辦？
+- SSL 問題
+新的 Mac (M1/M2...等 ARM 架構 CPU 的蘋果電腦) 可能會遇到某種 SSL 的錯誤，訊息裡包含這種內容：
+
+```bash
+SSL: CERTIFICATE_VERIFY_FAILED...
+```
+那只要下載這個檔案 ([連結](./src/install_certifi.py)) 接著執行它，然後再啟動一次 Discord 就行了。
+
+- ModuleNotFoundError: No module named 'discord'
+如果你的電腦裡不曾安裝過 discord 的模組。在 Mac 裡，請打開終端機 (或叫 Terminal)，而在 Windows 電腦裡，請打開命令提示字元 (或搜尋 `cmd`)，然後輸入以下指令來安裝 discord 模組：
+
+```python3 -m pip install discord.py```
+然後再啟動一次 Discord 就行了。
+
+- ModuleNotFoundError: No module named 'requests'
+如果你的電腦裡不曾安裝過 requests 的模組。在 Mac 裡，請打開終端機 (或叫 Terminal)，而在 Windows 電腦裡，請打開命令提示字元 (或搜尋 `cmd`)，然後輸入以下指令來安裝 discord 模組：
+`python3 -m pip install requests`
+然後再啟動一次 Discord 就行了。
